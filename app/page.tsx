@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const basePath = process.env.NODE_ENV === "production" ? "/gfbs3-portfolio-demo" : "";
+const basePath = process.env.NODE_ENV === "production" ? "/ntaadennis/xvma.git" : "";
 
 export default function Home() {
   return (
@@ -38,13 +38,13 @@ export default function Home() {
               READY TO LAUNCH
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white leading-[1.1] drop-shadow-[0_0_15px_rgba(34,211,238,0.3)]">
-              BUILDING SOFTWARE <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-purple-500 to-cyan-500 animate-gradient-x">FROM CODE</span> <br />
-              TO HARDWARE
+              DENNIS VOLLMER <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-cyan-500 animate-gradient-x">BUILDING SYSTEMS</span> <br />
+              FROM SOFTWARE TO HARDWARE
             </h1>
           </div>
           <p className="text-lg md:text-xl text-cyan-100/70 max-w-2xl leading-relaxed font-light border-l-2 border-yellow-500/50 pl-6">
-            Software Engineer building reliable systems—from modern web applications to embedded devices and scientific prototypes.
+            Software Engineer building reliable systems—from modern web applications to embedded devices.
           </p>
           <div className="pt-8 flex gap-6">
             <Link 
@@ -190,7 +190,7 @@ export default function Home() {
         <section id="contact" className="py-20 border-t border-cyan-900/30">
           <div className="max-w-3xl mx-auto text-center space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">
-              CONTACT <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-purple-500 to-cyan-500 animate-gradient-x">ME</span> 
+              CONTACT <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-cyan-500 animate-gradient-x">ME</span> 
             </h2>
             <p className="text-cyan-200/60 text-lg">
         
@@ -202,7 +202,7 @@ export default function Home() {
        
             <div className="flex flex-col items-center gap-6">
               <a 
-                href="mailto:your@email.com"
+                href="mailto:ntaadennis@gmail.com"
                 className="px-10 py-4 bg-yellow-600 text-white font-bold tracking-widest uppercase text-sm hover:bg-yellow-500 transition-all hover:shadow-[0_0_30px_rgba(232,121,249,0.6)] hover:scale-105 duration-300 clip-path-polygon"
               >
                 EMAIL ME
