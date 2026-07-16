@@ -5,11 +5,11 @@ const basePath = process.env.NODE_ENV === "production" ? "/gfbs3-portfolio-demo"
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#050510] text-cyan-50 font-mono selection:bg-fuchsia-500/30 selection:text-fuchsia-200 overflow-x-hidden">
+    <div className="min-h-screen bg-[#050510] text-cyan-50 font-mono selection:bg-yellow-500/30 selection:text-yellow-200 overflow-x-hidden">
       {/* Grid Background */}
       <div className="fixed inset-0 z-0 pointer-events-none">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#1a1a2e_1px,transparent_1px),linear-gradient(to_bottom,#1a1a2e_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-20" />
-        <div className="absolute bottom-0 left-0 right-0 h-[50vh] bg-gradient-to-t from-fuchsia-900/20 to-transparent opacity-30" />
+        <div className="absolute bottom-0 left-0 right-0 h-[50vh] bg-gradient-to-t from-yellow-900/20 to-transparent opacity-30" />
       </div>
 
       {/* Navigation */}
@@ -17,13 +17,13 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link 
             href="/" 
-            className="text-lg font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-fuchsia-400 hover:to-cyan-400 transition-all duration-300"
+            className="text-lg font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-yellow-400 hover:to-cyan-400 transition-all duration-300"
           >
-            GITFOLIO
+            xvma
           </Link>
           <div className="flex gap-8 text-xs font-bold tracking-widest uppercase text-cyan-700/80">
             <Link href="#work" className="hover:text-cyan-400 hover:drop-shadow-[0_0_5px_rgba(34,211,238,0.8)] transition-all">PROJECTS</Link>
-            <Link href="#philosophy" className="hover:text-fuchsia-400 hover:drop-shadow-[0_0_5px_rgba(232,121,249,0.8)] transition-all">ABOUT</Link>
+            <Link href="#philosophy" className="hover:text-yellow-400 hover:drop-shadow-[0_0_5px_rgba(232,121,249,0.8)] transition-all">ABOUT</Link>
             <Link href="#contact" className="hover:text-yellow-400 hover:drop-shadow-[0_0_5px_rgba(250,204,21,0.8)] transition-all">CONTACT</Link>
           </div>
         </div>
@@ -38,13 +38,13 @@ export default function Home() {
               READY TO LAUNCH
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white leading-[1.1] drop-shadow-[0_0_15px_rgba(34,211,238,0.3)]">
-              BUILD YOUR <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 via-purple-500 to-cyan-500 animate-gradient-x">DEVELOPER PORTFOLIO</span> <br />
-              IN MINUTES
+              BUILDING SOFTWARE <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-purple-500 to-cyan-500 animate-gradient-x">FROM CODE</span> <br />
+              TO HARDWARE
             </h1>
           </div>
-          <p className="text-lg md:text-xl text-cyan-100/70 max-w-2xl leading-relaxed font-light border-l-2 border-fuchsia-500/50 pl-6">
-            A beginner-friendly portfolio template that showcases your projects beautifully. Fork it, customize it, deploy it—no design skills required.
+          <p className="text-lg md:text-xl text-cyan-100/70 max-w-2xl leading-relaxed font-light border-l-2 border-yellow-500/50 pl-6">
+            Software Engineer building reliable systems—from modern web applications to embedded devices and scientific prototypes.
           </p>
           <div className="pt-8 flex gap-6">
             <Link 
@@ -62,10 +62,10 @@ export default function Home() {
         {/* Selected Work */}
         <section id="work" className="py-20 space-y-12">
           <div className="flex items-end justify-between border-b border-cyan-900/30 pb-4">
-            <h2 className="text-2xl font-bold tracking-widest text-fuchsia-400 drop-shadow-[0_0_8px_rgba(232,121,249,0.6)]">
-              // YOUR_PROJECTS
+            <h2 className="text-2xl font-bold tracking-widest text-yellow-400 drop-shadow-[0_0_8px_rgba(232,121,249,0.6)]">
+              // MY_PROJECTS
             </h2>
-            <span className="text-xs font-mono text-cyan-700">Showcase what you&apos;ve built with style</span>
+            <span className="text-xs font-mono text-cyan-700">Web and Embedded Systems </span>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -82,7 +82,7 @@ export default function Home() {
               title="PROJECT_TWO"
               description="Your second project showcase. Tell visitors what makes this project special and what you learned building it."
               tags={["JAVASCRIPT", "API", "CSS"]}
-              color="fuchsia"
+              color="yellow"
               href="#"
             />
             {/* Project 3 */}
@@ -126,26 +126,56 @@ export default function Home() {
             </div>
           </div>
           <div className="md:col-span-8 space-y-8 text-cyan-100/80 leading-relaxed font-light">
-            <p>
-              Every developer has a unique journey. Share yours here—whether you&apos;re self-taught, a bootcamp grad, or transitioning careers. <strong className="text-fuchsia-400 font-bold">Your story matters.</strong> Talk about what drives you to code and the impact you want to make.
-            </p>
+            <div className="space-y-4">
+              <p>
+                I have spent most of my professional career working as a <strong className="text-yellow-400 font-bold">Full Stack Software Engineer</strong>,
+                building modern web applications from concept to deployment.
+              </p>
+
+              <p>
+                During my apprenticeship, I learned the fundamentals of <strong className="text-yellow-400 font-bold">project management, React, PHP, and MySQL</strong>,
+                developing websites, client applications, and custom WordPress plugins.
+              </p>
+
+              <p>
+                Later, I became part of the development of a <strong className="text-yellow-400 font-bold">large-scale web application</strong> built with
+                <strong className="text-yellow-400 font-bold"> React, PHP, and MySQL</strong>. Working on a growing codebase strengthened my understanding of software architecture,
+                scalable system design, API development, database modeling, debugging, and writing maintainable software.
+              </p>
+
+              <p>
+                Today, my focus is expanding toward <strong className="text-yellow-400 font-bold">embedded systems</strong>. I enjoy building software that interacts directly with hardware,
+                sensors, and electronic devices, and I&apos;m excited to apply my software engineering background to research-driven and hardware-oriented projects.
+              </p>
+
+              <p>
+                My long-term goal is to contribute to scientific and engineering projects that have a
+                <strong className="text-yellow-400 font-bold"> meaningful impact</strong>. Whether in aerospace, environmental monitoring, or research, I want
+                to develop software that helps us better understand and explore the world around us.
+              </p>
+            </div>
+            
             <div className="p-6 bg-cyan-950/20 border border-cyan-500/20 rounded-sm relative overflow-hidden">
-              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 via-fuchsia-500 to-cyan-500" />
+              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 via-yellow-500 to-cyan-500" />
               <div className="grid grid-cols-2 gap-8 font-mono text-sm">
                 <div>
                   <h3 className="text-cyan-400 mb-4 tracking-widest uppercase text-xs border-b border-cyan-800 pb-2">STACK_TRACE</h3>
                   <ul className="space-y-2 text-cyan-200/70">
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> JavaScript / Python / TypeScript</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> React / Next.js / Node.js</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Git / GitHub / VS Code</li>
+                    <li className="flex items-center gap-2"><span className="text-yellow-500">›</span> C / C++ / Python</li>
+                    <li className="flex items-center gap-2"><span className="text-yellow-500">›</span> JavaScript / TypeScript</li>
+                    <li className="flex items-center gap-2"><span className="text-yellow-500">›</span> React / Next.js / Node.js</li>
+                    <li className="flex items-center gap-2"><span className="text-yellow-500">›</span> PHP / MySQL</li>
+                    <li className="flex items-center gap-2"><span className="text-yellow-500">›</span> Arduino / ESP32</li>
+                    <li className="flex items-center gap-2"><span className="text-yellow-500">›</span> Git / Linux</li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="text-cyan-400 mb-4 tracking-widest uppercase text-xs border-b border-cyan-800 pb-2">PROTOCOLS</h3>
                   <ul className="space-y-2 text-cyan-200/70">
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Always learning</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Ship &gt; Perfect</li>
-                    <li className="flex items-center gap-2"><span className="text-fuchsia-500">›</span> Open source contributor</li>
+                    <li className="flex items-center gap-2"><span className="text-yellow-500">›</span> Always learning</li>
+                    <li className="flex items-center gap-2"><span className="text-yellow-500">›</span> Clean Architecture</li>
+                    <li className="flex items-center gap-2"><span className="text-yellow-500">›</span> Research Driven</li>
+                    <li className="flex items-center gap-2"><span className="text-yellow-500">›</span> Systems Thinking</li>
                   </ul>
                 </div>
               </div>
@@ -157,54 +187,54 @@ export default function Home() {
         <section id="contact" className="py-20 border-t border-cyan-900/30">
           <div className="max-w-3xl mx-auto text-center space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">
-              READY TO <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">LAUNCH?</span>
+              CONTACT <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-purple-500 to-cyan-500 animate-gradient-x">ME</span> 
             </h2>
             <p className="text-cyan-200/60 text-lg">
-              Fork this template on GitHub and make it yours. Update the content, add your projects, and deploy to GitHub Pages in under 30 minutes.
+        
+  Interested in my work or looking for someone with experience in software
+  development, embedded systems, and technical innovation? Feel free to reach out.
+  I&apos;m always open to new opportunities, collaborations, and interesting
+  engineering challenges.
             </p>
+       
             <div className="flex flex-col items-center gap-6">
               <a 
-                href="https://github.com/ladykerr/gfbs3-portfolio-demo" 
-                className="px-10 py-4 bg-fuchsia-600 text-white font-bold tracking-widest uppercase text-sm hover:bg-fuchsia-500 transition-all hover:shadow-[0_0_30px_rgba(232,121,249,0.6)] hover:scale-105 duration-300 clip-path-polygon"
+                href="mailto:your@email.com"
+                className="px-10 py-4 bg-yellow-600 text-white font-bold tracking-widest uppercase text-sm hover:bg-yellow-500 transition-all hover:shadow-[0_0_30px_rgba(232,121,249,0.6)] hover:scale-105 duration-300 clip-path-polygon"
               >
-                FORK ON GITHUB
+                EMAIL ME
               </a>
               <div className="flex items-center gap-8 pt-4">
-                <SocialLink href="https://github.com" label="GITHUB" />
-                <SocialLink href="https://linkedin.com" label="LINKEDIN" />
-                <SocialLink href="https://twitter.com" label="TWITTER" />
+                <SocialLink href="https://github.com/ntaadennis" label="GITHUB" />
+                <SocialLink href="https://www.linkedin.com/in/dennis-vollmer-721a07239/" label="LINKEDIN" />
               </div>
             </div>
           </div>
         </section>
       </main>
 
-      <footer className="py-8 text-center text-xs font-mono text-cyan-900/50 border-t border-cyan-900/20">
-        <p>Made with ❤️ by <a href="https://gh.io/gfb" target="_blank" rel="noopener noreferrer" className="text-cyan-700 hover:text-cyan-400 hover:drop-shadow-[0_0_5px_rgba(34,211,238,0.8)] transition-all">GitHub for Beginners</a> and <a href="https://gh.io/gfb-copilot" target="_blank" rel="noopener noreferrer" className="text-cyan-700 hover:text-cyan-400 hover:drop-shadow-[0_0_5px_rgba(34,211,238,0.8)] transition-all">GitHub Copilot</a></p>
-      </footer>
+     
     </div>
   );
 }
 
-function ProjectCard({ title, description, tags, color, href }: { title: string, description: string, tags: string[], color: "cyan" | "fuchsia" | "purple" | "yellow", href: string }) {
+function ProjectCard({ title, description, tags, color, href }: { title: string, description: string, tags: string[], color: "cyan" | "yellow" | "purple", href: string }) {
   // Valid color options for the card styling
-  const validColors = ["cyan", "fuchsia", "purple", "yellow"] as const;
+  const validColors = ["cyan", "yellow", "purple"] as const;
   
   // Runtime validation: default to "cyan" if an invalid color is provided
   const safeColor = validColors.includes(color) ? color : "cyan";
 
   const colorClasses = {
     cyan: "group-hover:border-cyan-500/50 group-hover:shadow-[0_0_20px_rgba(34,211,238,0.2)]",
-    fuchsia: "group-hover:border-fuchsia-500/50 group-hover:shadow-[0_0_20px_rgba(232,121,249,0.2)]",
-    purple: "group-hover:border-purple-500/50 group-hover:shadow-[0_0_20px_rgba(168,85,247,0.2)]",
     yellow: "group-hover:border-yellow-500/50 group-hover:shadow-[0_0_20px_rgba(234,179,8,0.2)]",
+    purple: "group-hover:border-purple-500/50 group-hover:shadow-[0_0_20px_rgba(168,85,247,0.2)]",
   };
 
   const textColors = {
     cyan: "group-hover:text-cyan-400",
-    fuchsia: "group-hover:text-fuchsia-400",
-    purple: "group-hover:text-purple-400",
     yellow: "group-hover:text-yellow-400",
+    purple: "group-hover:text-purple-400",
   };
 
   return (
