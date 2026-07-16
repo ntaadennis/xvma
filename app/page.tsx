@@ -71,34 +71,37 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Project 1 */}
             <ProjectCard 
-              title="PROJECT_ONE"
-              description="Your first amazing project goes here. Describe what problem it solves and the tech you used to build it."
-              tags={["REACT", "NEXTJS", "TAILWIND"]}
-              color="cyan"
-              href="#"
-            />
-            {/* Project 2 */}
-            <ProjectCard 
-              title="PROJECT_TWO"
-              description="Your second project showcase. Tell visitors what makes this project special and what you learned building it."
-              tags={["JAVASCRIPT", "API", "CSS"]}
-              color="yellow"
-              href="#"
-            />
-            {/* Project 3 */}
-            <ProjectCard 
-              title="PROJECT_THREE"
-              description="Another project to highlight your skills. Share the impact or results of this work."
-              tags={["TYPESCRIPT", "NODE", "EXPRESS"]}
+              title="Web Applications, WordPress & Shopify"
+              description="Developing custom web solutions for clients, ranging from responsive websites to tailored WordPress plugins and Shopify integrations. Focused on user experience, maintainable code, and practical solutions for real-world requirements."
+              tags={["JAVASCRIPT", "PHP", "REACT"]}
               color="purple"
               href="#"
             />
+
+            {/* Project 2 */}
+            <ProjectCard 
+              title="Large Scale React Application"
+              description="Developing a complex web application from the ground up using React, PHP, and MySQL. Focused on scalable architecture, reusable components, API design, database structures, and building maintainable systems for long-term growth."
+              tags={["REACT", "PHP", "MYSQL"]}
+              color="purple"
+              href="#"
+            />
+
+            {/* Project 3 */}
+            <ProjectCard 
+              title="Environmental Monitoring Station"
+              description="A battery-powered embedded weather station built with an Arduino Nano and BME280 sensor. Features real-time environmental measurements, OLED visualization, custom soldered electronics, and a 3D-designed enclosure."
+              tags={["C++", "ARDUINO", "I²C", "CAD"]}
+              color="purple"
+              href="https://github.com/ntaadennis/weatherstation"
+            />
+
             {/* Project 4 */}
             <ProjectCard 
-              title="PROJECT_FOUR"
-              description="Keep building and adding to your portfolio. Each project tells part of your developer story."
-              tags={["PYTHON", "DJANGO", "POSTGRESQL"]}
-              color="yellow"
+              title="CanSat Satellite Project"
+              description="Designing a small recoverable satellite prototype based on an ESP32 microcontroller. Exploring embedded software, sensor integration, telemetry, wireless communication, and autonomous data collection."
+              tags={["ESP32", "C++", "IOT", "SENSORS"]}
+              color="purple"
               href="#"
             />
           </div>
