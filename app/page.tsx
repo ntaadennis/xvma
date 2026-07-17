@@ -97,7 +97,7 @@ export default function Home() {
               title="Web Applications, WordPress & Shopify"
               description="Developing custom web solutions for clients, ranging from responsive websites to tailored WordPress plugins and Shopify integrations. Focused on user experience, maintainable code, and practical solutions for real-world requirements."
               tags={["JAVASCRIPT", "PHP", "REACT"]}
-              color="purple"
+              color="cyan"
               href="https://github.com/ntaadennis"
             />
 
@@ -106,7 +106,7 @@ export default function Home() {
               title="Large Scale React Application"
               description="Developing a complex web application from the ground up using React, PHP, and MySQL. Focused on scalable architecture, reusable components, API design, database structures, and building maintainable systems for long-term growth."
               tags={["REACT", "PHP", "MYSQL"]}
-              color="purple"
+              color="cyan"
               href="https://github.com/ntaadennis"
             />
 
@@ -115,7 +115,7 @@ export default function Home() {
               title="Environmental Monitoring Station"
               description="A battery-powered embedded weather station built with an Arduino Nano and BME280 sensor. Features real-time environmental measurements, OLED visualization, custom soldered electronics, and a 3D-designed enclosure."
               tags={["C++", "ARDUINO", "I²C", "CAD"]}
-              color="purple"
+              color="cyan"
               href="https://github.com/ntaadennis/weatherstation"
             />
 
@@ -124,7 +124,7 @@ export default function Home() {
               title="CanSat Satellite Project"
               description="Designing a small recoverable satellite prototype based on an ESP32 microcontroller. Exploring embedded software, sensor integration, telemetry, wireless communication, and autonomous data collection."
               tags={["ESP32", "C++", "IOT", "SENSORS"]}
-              color="purple"
+              color="cyan"
               href="https://github.com/ntaadennis"
             />
           </div>
@@ -271,26 +271,24 @@ export default function Home() {
 
         {/* Contact */}
         <section id="contact" className="py-20 border-t border-cyan-900/30">
-          <div className="max-w-3xl mx-auto text-center space-y-8">
-            <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">
-              CONTACT{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-cyan-500 animate-gradient-x">
-                ME
-              </span>
+                  <div className="max-w-3xl mx-auto text-center space-y-8">
+
+        <h2 className="text-2xl font-bold tracking-widest text-yellow-400 drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]">
+              {"// CONTACT"}
             </h2>
-            <p className="text-cyan-200/60 text-lg">
+             <p className="text-cyan-200/60 text-lg">
               Interested in my work or looking for someone with experience in
               software development, embedded systems, and technical innovation?
               Feel free to reach out. I&apos;m always open to new opportunities,
               collaborations, and interesting engineering challenges.
             </p>
-
+            
             <div className="flex flex-col items-center gap-6">
               <a
                 href="mailto:ntaadennis@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-10 py-4 bg-yellow-600 text-white font-bold tracking-widest uppercase text-sm hover:bg-yellow-500 transition-all hover:shadow-[0_0_30px_rgba(232,121,249,0.6)] hover:scale-105 duration-300 clip-path-polygon"
+                className="px-10 py-4 bg-yellow-500 text-white font-bold tracking-widest uppercase text-sm hover:bg-yellow-400 transition-all hover:shadow-[0_0_30px_rgba(232,121,249,0.6)] hover:scale-105 duration-300 clip-path-polygon"
               >
                 EMAIL ME
               </a>
