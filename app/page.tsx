@@ -31,13 +31,13 @@ export default function Home() {
             </Link>
             <Link
               href="#philosophy"
-              className="hover:text-yellow-400 hover:drop-shadow-[0_0_5px_rgba(232,121,249,0.8)] transition-all"
+              className="hover:text-cyan-400 hover:drop-shadow-[0_0_5px_rgba(232,121,249,0.8)] transition-all"
             >
               ABOUT
             </Link>
             <Link
               href="#contact"
-              className="hover:text-yellow-400 hover:drop-shadow-[0_0_5px_rgba(250,204,21,0.8)] transition-all"
+              className="hover:text-cyan-400 hover:drop-shadow-[0_0_5px_rgba(250,204,21,0.8)] transition-all"
             >
               CONTACT
             </Link>
