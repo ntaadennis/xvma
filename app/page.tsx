@@ -1,3 +1,5 @@
+'use client';
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -288,6 +290,14 @@ export default function Home() {
                 href="mailto:ntaadennis@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.open(
+                    "mailto:ntaadennis@gmail.com",
+                    "_blank",
+                    "noopener,noreferrer"
+                  );
+                }}
                 className="px-10 py-4 bg-yellow-500 text-white font-bold tracking-widest uppercase text-sm hover:bg-yellow-400 transition-all hover:shadow-[0_0_30px_rgba(232,121,249,0.6)] hover:scale-105 duration-300 clip-path-polygon"
               >
                 EMAIL ME
