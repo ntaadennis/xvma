@@ -273,7 +273,7 @@ export default function Home() {
         <section id="contact" className="py-20 border-t border-cyan-900/30">
                   <div className="max-w-3xl mx-auto text-center space-y-8">
 
-        <h2 className="text-2xl font-bold tracking-widest text-yellow-400 drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]">
+        <h2 className="text-2xl font-bold tracking-widest text-cyan-400 drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]">
               {"// CONTACT"}
             </h2>
              <p className="text-cyan-200/60 text-lg">
