@@ -123,7 +123,7 @@ export default function Home() {
 
             {/* Project 4 */}
             <ProjectCard
-              title="CanSat Satellite Project"
+              title="CanSat Satellite Project (TBD)"
               description="Designing a small recoverable satellite prototype based on an ESP32 microcontroller. Exploring embedded software, sensor integration, telemetry, wireless communication, and autonomous data collection."
               tags={["ESP32", "C++", "IOT", "SENSORS"]}
               color="cyan"
